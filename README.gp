@@ -1,17 +1,17 @@
-   This README file is meant to aid in interpreting the accompanying file SHINTANI.gp, which gives examples attached to particular number fields k of the algorithm described in section 6 of the manuscript (abbreviated MS)
+   This README file is meant to aid in interpreting the accompanying file SHINTANI.txt, which gives examples attached to particular number fields k of the algorithm described in section 6 of the manuscript (abbreviated MS)
 
     ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR    
     TOTALLY COMPLEX QUARTIC FIELDS (version 2) 
 
 by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number Theory.
  
-   The file SHINTANI.gp is a text file meant to be downloaded and read into PARI GP via the command
+   The file SHINTANI.txt is a text file meant to be downloaded and read into PARI GP via the command
 
-        \r SHINTANI.gp
+        \r SHINTANI.txt
 
 It can, of course, be read and used by other software, bearing in mind that square brackets [ ] are used for lists, its elements are separated by commas.
 
-The file SHINTANI.gp contains 11 examples of Shintani domains E1,...,E11. It consists of one long line of text of the form 
+The file SHINTANI.txt contains 11 examples of Shintani domains E1,...,E11. It consists of one long line of text of the form 
 
 examples = [E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11];
 
