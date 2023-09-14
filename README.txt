@@ -3,7 +3,7 @@
     ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR    
     TOTALLY COMPLEX QUARTIC FIELDS (version 2) 
 
-by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number Theory.
+by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number Theory (2023).
  
    The file SHINTANI.txt is a text file meant to be downloaded and read into PARI GP via the command
 
