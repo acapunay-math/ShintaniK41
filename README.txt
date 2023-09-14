@@ -1,4 +1,4 @@
-   This README file is meant to aid in interpreting the accompanying file SHINTANI.txt, which gives examples attached to particular number fields k of the algorithm described in section 6 of the manuscript (abbreviated MS)
+   This README file is meant to aid in interpreting the accompanying file SHINTANI.txt, which gives examples attached to particular number fields k of the algorithm described in section 6 of the manuscript (abbreviated MS) HOLA
 
     ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR    
     TOTALLY COMPLEX QUARTIC FIELDS (version 2) 
