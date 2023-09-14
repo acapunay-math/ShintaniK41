@@ -9,9 +9,9 @@ by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number 
 
         \r SHINTANI.txt
 
-It can, of course, be read and used by other software, bearing in mind that square brackets [ ] are used for lists, its elements are separated by commas.
+It can, of course, be read and used by other software, bearing in mind that square brackets [ ] are used for lists, its elements are separated by commas. Also, as it was suggested by referee, the file SHITANI-ML.sage can be read by SageMath using load('SHITANI-ML.sage'), this returns a list of examples as in the file SHITANI.txt
 
-The file SHINTANI.txt contains 11 examples of Shintani domains E1,...,E11. It consists of one long line of text of the form 
+The file SHINTANI.txt (and also the file SHITANI-ML.sage) contains 11 examples of Shintani domains E1,...,E11. It consists of one long line of text of the form 
 
 examples = [E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11];
 
