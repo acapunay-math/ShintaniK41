@@ -11,14 +11,14 @@ by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number 
 
 ## File description
 
-(I). After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial $p$ (which define a complex quartic number field), then you can use the comand 
+$(I).$ After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial $p$ (which define a complex quartic number field), then you can use the comand 
 
  `F=FDK41(p);`
 
 This returns a data $F:=[F1,F2,F3,F4]$ asociated to a Shintani domain with the following description (explained in the example file)
 
-\begin{enumerate}
-\item The first entry $F1$ (i.e., $F[1]$) has the form 
+
+1. The first entry $F1$ (i.e., $F[1]$) has the form 
 
       $$[t,p,reg,disc,E,r,T]$$
 
@@ -41,33 +41,31 @@ $r =$  minimal positive integer with $|E_1|^{2r} < 0.184$ as in display $(34)$ o
 $T =$    number of 4-cones in the Shintani domain constructed 
 
   
-\item The second entry $F2$ of $F$ (i.e., $F[2]$) has the form  
+2. The second entry $F2$ of $F$ (i.e., $F[2]$) has the form  
 
       $$[\tilde{e}_1,\tilde{e}_2,\tilde{e}_3,\tilde{e}_4]$$
 
 where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the $j-th$ element of the standard basis of $\mathbb{R}^4 = \mathbb{C}^2$, wherein $k$ is embedded. The elements $\tilde{e}_j$ are mentioned at the beginning of the proof of the Main Theorem in section 5 of the Ms. The error bound ($\varepsilon$ in the Ms) used was $1/150$. 
 
 
-\item The third entry `F3` of `F` (i.e., `F[3]`) has the form  
+3. The third entry $F3$ of $F$ (i.e., $F[3]$) has the form  
 
-      `[C1,C2,...,CT]`
+      $$[C_1,C_2,...,C_T]$$
 
-which is a list of the `T` (semi-closed) cones in the Shintani domain. Here `T = F[1][7]` is the last entry of a1  described above. Each cone `Cj` is given by `m` linear inequalities (`m` depending on the cone) giving `m` closed or open half-spaces whose intersection is `Cj`. Thus, each `Cj` has the form  
+which is a list of the $T$ (semi-closed) cones in the Shintani domain. Here $T = F[1][7]$ is the last entry of a1  described above. Each cone $C_j$ is given by $m$ linear inequalities ($m$ depending on the cone) giving $m$ closed or open half-spaces whose intersection is $Cj$. Thus, each $Cj$ has the form  
 
-  `[v1,v2,...,vm]`
+  $$[v_1,v_2,...,v_m]$$
 
-where `vi=[w,1]` or `[w,-1]` and `w` is an element of `k` (depending on `i` and `j`). If `w` is followed by `1`, then the corresponding (closed) half-space is the set of elements `x` of `R^4` with `Trace(xw) >= 0`. If `w` is followed by `-1`, then the corresponding (open) half-space is given by `Trace(xw) > 0`. Here Trace is the extension to R^4 of the trace map from `k` to `Q`.
+where $v_i=[w,1]$ or $[w,-1]$ and $w$ is an element of $k$ (depending on $i$ and $j$). If $w$ is followed by $1$, then the corresponding (closed) half-space is the set of elements $x$ of $\mathbb{R}^4$ with $Trace(xw) >= 0$. If $w$ is followed by $-1$, then the corresponding (open) half-space is given by $Trace(xw) > 0$. Here Trace is the extension to $\mathbb{R}^4$ of the trace map from $k$ to $\mathbb{Q}$.
 
-\item The fourth entry `F4` of `F` (i.e., `F[4]`) has the form  
+4. The fourth entry $F4$ of $F$ (i.e., $F[4]$) has the form  
 
-      `[CC1,CC2,...,CCT]`
+      $$[CC_1,CC_2,...,CC_T]$$
 
-where `CCj` is the closure in `R^4` of the cone `Cj` in `F3`. Each closed cone `CCj` is given here by a list of generators in `k`.
+where $CC_j$ is the closure in $\mathbb{R}^4$ of the cone $C_j$ in $F3$. Each closed cone $CC_j$ is given here by a list of generators in $k$.
+             
 
-\end{enumerate}             
-
-
-(II). If you want to obtain Shintani domains for a list of (totall complex quartic) polynomials `L`, you can use the command
+$(II).$ If you want to obtain Shintani domains for a list of (totall complex quartic) polynomials `L`, you can use the command
 
   `ShintaniExamplesK41(L)`
 
