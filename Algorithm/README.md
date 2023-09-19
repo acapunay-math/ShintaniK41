@@ -1,6 +1,6 @@
 ## Shintani domains for totally complex quartic number fields 
 
-Here we give an algorithm (in PARI GP) to obtain a fundamental domain for totally complex quartic number fields. By Shintani's unit theorem such domain is a finite union of polyhedral cones with generators in `k`. 
+Here we give an algorithm (in PARI GP) to obtain a fundamental domain for totally complex quartic number fields $k$. By Shintani's unit theorem such domain is a finite union of polyhedral cones with generators in $k$. 
 
 This implementation is based in the manuscript
 
@@ -11,11 +11,11 @@ by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number 
 
 ## File description
 
-(I). After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial `p` (which define a complex quartic number field), then you can use the comand 
+(I). After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial $p$ (which define a complex quartic number field), then you can use the comand 
 
  `F=FDK41(p);`
 
-This returns a data $F=[F1,F2,F3,F4]$ asociated to a Shintani domain with the following description (explained in the example file)
+This returns a data $F:=[F1,F2,F3,F4]$ asociated to a Shintani domain with the following description (explained in the example file)
 
 
 1. The first entry $F1$ (i.e., $F[1]$) has the form 
@@ -24,9 +24,9 @@ This returns a data $F=[F1,F2,F3,F4]$ asociated to a Shintani domain with the fo
 
 with 
 
-`t `   = real computation time for `Ei` in milliseconds
+$t =$  real computation time for `Ei` in milliseconds
 
-`p`    = quartic irreducible polynomial defining a totally complex number field $k:= \text{the quotient ring } Q[X]/(p)$ 
+$p =$  quartic irreducible polynomial defining a totally complex number field $k:= \text{the quotient ring } Q[X]/(p)$ 
 
 `reg`  = Regulator of `k` to 19 decimals
 
