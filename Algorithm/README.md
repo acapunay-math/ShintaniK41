@@ -43,7 +43,7 @@ with
   
 2. The second entry `F2` of `F` (i.e., `F[2]`) has the form  
 
-      `[ee1,ee2,ee3,ee4]` 
+      $$[\tilde{e}_1,\tilde{e}_2,\tilde{e}_3,\tilde{e}_4]$$
 
 where `eej` (for $1\leq j\leq 4$) is an element of $k$ approximating the $j-th$ element of the standard basis of $\mathbb{R}^4 = \mathbb{C}^2$, wherein `k` is embedded. The elements `eej` are denoted (in the Latex source code) $\tilde{e}_j$ at the beginning of the proof of the Main Theorem in section 5 of the Ms. The error bound ($\varepsilon$ in the Ms) used was $1/150$. 
 
