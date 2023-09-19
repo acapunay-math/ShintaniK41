@@ -26,7 +26,7 @@ with
 
 `t `   = real computation time for `Ei` in milliseconds
 
-`p`    = quartic irreducible polynomial defining a totally complex number field `k` := the quotient ring `Q[X]/(p)`  
+`p`    = quartic irreducible polynomial defining a totally complex number field $k:= \text{the quotient ring } Q[X]/(p)$ 
 
 `reg`  = Regulator of `k` to 19 decimals
 
@@ -45,7 +45,7 @@ with
 
       `[ee1,ee2,ee3,ee4]` 
 
-where `eej` (for `1<=j<=4`) is an element of `k` approximating the j-th element of the standard basis of $\mathbb{R}^4 = \mathbb{C}^2$, wherein `k` is embedded. The elements `eej` are denoted (in the Latex source code) $\tilde{e}_j$ at the beginning of the proof of the Main Theorem in section 5 of the Ms. The error bound ($\varepsilon$ in the Ms) used was 1/150. 
+where `eej` (for $1\leq j\leq 4$) is an element of $k$ approximating the $j-th$ element of the standard basis of $\mathbb{R}^4 = \mathbb{C}^2$, wherein `k` is embedded. The elements `eej` are denoted (in the Latex source code) $\tilde{e}_j$ at the beginning of the proof of the Main Theorem in section 5 of the Ms. The error bound ($\varepsilon$ in the Ms) used was $1/150$. 
 
 
 3. The third entry `F3` of `F` (i.e., `F[3]`) has the form  
