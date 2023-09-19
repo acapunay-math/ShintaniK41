@@ -15,12 +15,12 @@ by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number 
 
  `F=FDK41(p);`
 
-This returns a data `F=[F1,F2,F3,F4]` asociated to a Shintani domain with the following description (explained in the example file)
+This returns a data $F=[F1,F2,F3,F4]$ asociated to a Shintani domain with the following description (explained in the example file)
 
 
-1. The first entry `F1` (i.e., `F[1]`) has the form 
+1. The first entry $F1$ (i.e., $F[1]$) has the form 
 
-      `[t,p,reg,disc,E,r,T]`
+      $$[t,p,reg,disc,E,r,T]$$
 
 with 
 
@@ -45,7 +45,7 @@ with
 
       $$[\tilde{e}_1,\tilde{e}_2,\tilde{e}_3,\tilde{e}_4]$$
 
-where `eej` (for $1\leq j\leq 4$) is an element of $k$ approximating the $j-th$ element of the standard basis of $\mathbb{R}^4 = \mathbb{C}^2$, wherein `k` is embedded. The elements `eej` are denoted (in the Latex source code) $\tilde{e}_j$ at the beginning of the proof of the Main Theorem in section 5 of the Ms. The error bound ($\varepsilon$ in the Ms) used was $1/150$. 
+where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the $j-th$ element of the standard basis of $\mathbb{R}^4 = \mathbb{C}^2$, wherein $k$ is embedded. The elements $\tilde{e}_j$ are mentioned at the beginning of the proof of the Main Theorem in section 5 of the Ms. The error bound ($\varepsilon$ in the Ms) used was $1/150$. 
 
 
 3. The third entry `F3` of `F` (i.e., `F[3]`) has the form  
