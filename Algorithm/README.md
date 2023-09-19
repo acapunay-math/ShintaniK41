@@ -13,7 +13,7 @@ by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number 
 
 (I). After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial `p` (which define a complex quartic number field), then you can use the comand 
 
-      `F=FDK41(p);`
+     `F=FDK41(p);`
 
 This returns a data `F=[F1,F2,F3,F4]` asociated to a Shintani domain with the following description (explained in the example file)
 
@@ -50,17 +50,17 @@ where `eej` (for `1<=j<=4`) is an element of `k` approximating the j-th element 
 
 3. The third entry `F3` of `F` (i.e., `F[3]`) has the form  
 
-       `[C1,C2,...,CT]`
+      `[C1,C2,...,CT]`
 
 which is a list of the `T` (semi-closed) cones in the Shintani domain. Here `T = F[1][7]` is the last entry of a1  described above. Each cone `Cj` is given by `m` linear inequalities (`m` depending on the cone) giving `m` closed or open half-spaces whose intersection is `Cj`. Thus, each `Cj` has the form  
 
-       `[v1,v2,...,vm]`
+      `[v1,v2,...,vm]`
 
 where `vi=[w,1]` or `[w,-1]` and `w` is an element of `k` (depending on `i` and `j`). If `w` is followed by `1`, then the corresponding (closed) half-space is the set of elements `x` of `R^4` with `Trace(xw) >= 0`. If `w` is followed by `-1`, then the corresponding (open) half-space is given by `Trace(xw) > 0`. Here Trace is the extension to R^4 of the trace map from `k` to `Q`.
 
 4. The fourth entry `F4` of `F` (i.e., `F[4]`) has the form  
 
-       `[CC1,CC2,...,CCT]`
+      `[CC1,CC2,...,CCT]`
 
 where `CCj` is the closure in `R^4` of the cone `Cj` in `F3`. Each closed cone `CCj` is given here by a list of generators in `k`.
              
