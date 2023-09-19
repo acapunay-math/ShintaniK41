@@ -1,6 +1,6 @@
 ## Shintani domains for totally complex quartic number fields 
 
-Here we give an algorithm (in PARI GP) to obtain a fundamental domain for totally complex quartic number fields $k$. By Shintani's unit theorem such domain is a finite union of polyhedral cones with generators in $k$. 
+Here we give an algorithm (in PARI GP) to obtain a fundamental domain for totally complex quartic number fields $k$. By [Shintani's unit theorem](https://en.wikipedia.org/wiki/Shintani%27s_unit_theorem) such domain is a finite union of polyhedral cones with generators in $k$. 
 
 This implementation is based in the manuscript
 
@@ -64,6 +64,8 @@ where $v_i=[w,1]$ or $[w,-1]$ and $w$ is an element of $k$ (depending on $i$ and
 
 where $CC_j$ is the closure in $\mathbb{R}^4$ of the cone $C_j$ in $F3$. Each closed cone $CC_j$ is given here by a list of generators in $k$.
              
+
+
 
 $(II).$ If you want to obtain Shintani domains for a list of (totall complex quartic) polynomials `L`, you can use the command
 
