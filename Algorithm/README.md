@@ -13,14 +13,14 @@ by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number 
 
 (I). After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial `p` (which define a complex quartic number field), then you can use the comand 
 
-       `F=FDK41(p);`
+      `F=FDK41(p);`
 
 This returns a data `F=[F1,F2,F3,F4]` asociated to a Shintani domain with the following description (explained in the example file)
 
 
 1. The first entry `F1` (i.e., `F[1]`) has the form 
 
-       `[t,p,reg,disc,E,r,T]`
+      `[t,p,reg,disc,E,r,T]`
 
 with 
 
