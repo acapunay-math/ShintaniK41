@@ -71,4 +71,4 @@ $(II).$ If you want to obtain Shintani domains for a list of (totally complex qu
 
   `ShintaniExamplesK41(L)`
 
-This create a file with all the Shintani domains obtained for the number fields defined by each polynomial of the list `L`
+This create a file with Shintani domains via the command `FDK41(p)` for each polynomial `p` of the list `L`
