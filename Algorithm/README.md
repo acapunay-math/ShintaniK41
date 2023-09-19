@@ -28,7 +28,7 @@ $t =$  real computation time for $F$ in milliseconds
 
 $p =$  quartic irreducible polynomial defining a totally complex number field $k:= \text{the quotient ring } \mathbb{Q}[X]/(p)$ 
 
-$reg =$  Regulator of $k$ to 19 decimals
+$reg =$  Regulator of $k$ to $19$ decimals
 
 $disc =$ Discriminant of $k$
 
@@ -67,8 +67,8 @@ where $CC_j$ is the closure in $\mathbb{R}^4$ of the cone $C_j$ in $F3$. Each cl
 
 
 
-$(II).$ If you want to obtain Shintani domains for a list of (totall complex quartic) polynomials `L`, you can use the command
+$(II).$ If you want to obtain Shintani domains for a list of (totally complex quartic) polynomials `L`, you can use the command
 
   `ShintaniExamplesK41(L)`
 
-This create a file with all the Shintani domains obtained for the number fields defined by each polynomial in the list `L`
+This create a file with all the Shintani domains obtained for the number fields defined by each polynomial of the list `L`
