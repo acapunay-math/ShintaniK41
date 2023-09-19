@@ -2,7 +2,7 @@
 
 \\ Shintani domains for totally complex quartic number fields k
 
-FDK41(p)= \\ p is a which defines a complex totally quartic number field
+FDK41(p)= \\ p is a which defines a totally complex quartic number field
 {my(K,u,r,S,C1,C2,ut,C3,Qr,T,L,a,c,Cineq,Cgen,V,tim1,D,dim,KB);
 tim1=getwalltime();
  K=bnfinit(p,1); \\ flag=1
