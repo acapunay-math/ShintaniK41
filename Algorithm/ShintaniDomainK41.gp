@@ -2,18 +2,6 @@
 
 \\ Shintani domains for totally complex quartic number fields k
 
-\\ Here our main routine "V=FDK41(p)" below returns an explicit Shintani domain with the following date: V=[V[1],V[2],V[3],V[4]]
-\\ where V[1]=[time, polynomial "p", regulator(k), discriminant(k), E, r, #T]
-\\ fundamental Unit E=(E1,E2) in its natural embedding space (C*)x(C*) with |E1|<1
-\\ r is a minimal positive integer with |E_1|^{2r} < 0.184. Here E_1 is an embedding of E in C 
-\\ #T=#(k-rational cones that defines a Shintani domain given by "p")
-
-\\ V[2]= k-rational basis near to the canonical basis of R^4
-
-\\ V[3]= vector of semi-closed polyhedral cones representated by inequalities of form [w,1] or [w,-1] where "w" is an element of "k". If w is followed by 1, then the corresponding (closed) half-space is the set of elements x of R^4 with Trace(xw) >= 0. If w is followed by -1, then the corresponding (open) half-space is given by Trace(xw) > 0. Here Trace is the extension to R^4 of the trace map from k to Q. The union of semi-closed cones in V[3] form a Shintani domain for the action of <E> in (C*)x(C*)
-
-\\ V[4]= vecto of closed cones which are the closure in R^4 of the cones in V[3]. Each closed cone in V[4] is given here by a list of generators in k.
-
 FDK41(p)= \\ p is a which defines a complex totally quartic number field
 {my(K,u,r,S,C1,C2,ut,C3,Qr,T,L,a,c,Cineq,Cgen,V,tim1,D,dim,KB);
 tim1=getwalltime();
