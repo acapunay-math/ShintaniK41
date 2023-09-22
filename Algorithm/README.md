@@ -2,7 +2,7 @@
 
 Here we give an algorithm (in PARI GP) to obtain a fundamental domain for totally complex quartic number fields $k$. By [Shintani's unit theorem](https://en.wikipedia.org/wiki/Shintani%27s_unit_theorem) such domain is a finite union of polyhedral cones with generators in $k$. 
 
-This implementation is based in the manuscript (abbreviated MS)
+This implementation is based on the manuscript (abbreviated MS)
 
 ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR    
     TOTALLY COMPLEX QUARTIC FIELDS (version 2) 
@@ -11,11 +11,11 @@ by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number 
 
 ## File description
 
-$(I).$ After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial $p$ (which define a complex quartic number field), then you can use the command
+$(I).$ After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial $p$ (which defines a complex quartic number field), then you can use the command
 
  `F=FDK41(p);`
 
-This returns a data $F:=[F1,F2,F3,F4]$ asociated to a Shintani domain with the following description (explained in the example file)
+This returns a list $F:=[F1,F2,F3,F4]$ asociated to a Shintani domain interpreted as follows
 
 
 1. The first entry $F1$ (i.e., $F[1]$) has the form 
@@ -52,11 +52,11 @@ where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the
 
       $$[C_1,C_2,...,C_T]$$
 
-which is a list of the $T$ (semi-closed) cones in the Shintani domain. Here $T = F[1][7]$ is the last entry of a1  described above. Each cone $C_j$ is given by $m$ linear inequalities ($m$ depending on the cone) giving $m$ closed or open half-spaces whose intersection is $Cj$. Thus, each $Cj$ has the form  
+which is a list of the $T$ (semi-closed) cones in the Shintani domain, where $T = F[1][7]$ was described above. Each cone $C_j$ is given by $m$ linear inequalities ($m$ depending on the cone) giving $m$ closed or open half-spaces whose intersection is $Cj$. Thus, each $Cj$ has the form  
 
   $$[v_1,v_2,...,v_m]$$
 
-where $v_i=[w,1]$ or $[w,-1]$ and $w$ is an element of $k$ (depending on $i$ and $j$). If $w$ is followed by $1$, then the corresponding (closed) half-space is the set of elements $x$ of $\mathbb{R}^4$ with $Trace(xw) \geq 0$. If $w$ is followed by $-1$, then the corresponding (open) half-space is given by $Trace(xw) > 0$. Here Trace is the extension to $\mathbb{R}^4$ of the trace map from $k$ to $\mathbb{Q}$.
+where $v_i=[w,1]$ or $[w,-1]$ and $w$ is an element of $k$ (depending on $i$ and $j$). If $w$ is followed by $1$, then the corresponding (closed) half-space is the set of elements $x$ of $\mathbb{R}^4$ with Trace$(xw) \geq 0$. If $w$ is followed by $-1$, then the corresponding (open) half-space is given by Trace$(xw) > 0$. Here Trace is the extension to $\mathbb{R}^4$ of the trace map from $k$ to $\mathbb{Q}$.
 
 4. The fourth entry $F4$ of $F$ (i.e., $F[4]$) has the form  
 
@@ -71,4 +71,4 @@ $(II).$ If you want to obtain Shintani domains for a list of (totally complex qu
 
   `ShintaniExamplesK41(L)`
 
-This create a file with Shintani domains via the command `FDK41(p)` for each polynomial `p` of the list `L`
+This creates a file with Shintani domains via the command `FDK41(p)` for each polynomial `p` of the list `L`
