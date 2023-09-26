@@ -13,7 +13,9 @@ by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number 
 
 $(I).$ After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial $p$ (which defines a complex quartic number field), then you can use the command
 
- `F=FDK41(p);`
+ ```bash
+ F=FDK41(p);
+ ```
 
 This returns a list $F:=[F1,F2,F3,F4]$ asociated to a Shintani domain interpreted as follows
 
@@ -69,6 +71,8 @@ where $CC_j$ is the closure in $\mathbb{R}^4$ of the cone $C_j$ in $F3$. Each cl
 
 $(II).$ If you want to obtain Shintani domains for a list of (totally complex quartic) polynomials `L`, you can use the command
 
-  `ShintaniExamplesK41(L)`
+  ```bash
+  ShintaniExamplesK41(L)
+  ```
 
 This creates a file with Shintani domains via the command `FDK41(p)` for each polynomial `p` of the list `L`
