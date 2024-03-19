@@ -6,7 +6,7 @@ This implementation is based on the manuscript (abbreviated MS)
 
 [ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR TOTALLY COMPLEX QUARTIC FIELDS](https://www.sciencedirect.com/science/article/pii/S0022314X23002299) 
 
-by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, Journal of Number Theory (2024).
+by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, Journal of Number Theory, Volume 258, May 2024, Pages 146-172.
 
 ## File description
 
