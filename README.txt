@@ -1,9 +1,10 @@
    This README file is meant to aid in interpreting the accompanying files SHINTANI.txt and SHINTANI-ML.sage, which gives examples attached to particular number fields k of the algorithm described in section 6 of the manuscript (abbreviated MS)
 
-    ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR    
-    TOTALLY COMPLEX QUARTIC FIELDS (version 2) 
+    ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR 
+    TOTALLY COMPLEX QUARTIC FIELDS
 
-by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number Theory (2023).
+by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, Journal of Number Theory (2024).
+https://www.sciencedirect.com/science/article/pii/S0022314X23002299
  
    The file SHINTANI.txt is a text file meant to be downloaded and read into PARI GP via the command
 
