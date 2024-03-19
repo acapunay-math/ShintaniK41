@@ -4,8 +4,7 @@ Here we give an algorithm (in PARI GP) to obtain a fundamental domain for totall
 
 This implementation is based on the manuscript (abbreviated MS)
 
-ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR    
-    TOTALLY COMPLEX QUARTIC FIELDS (version 2) 
+[ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR TOTALLY COMPLEX QUARTIC FIELDS](https://www.sciencedirect.com/science/article/pii/S0022314X23002299) 
 
 by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, submitted to the Journal of Number Theory (2023).
 
