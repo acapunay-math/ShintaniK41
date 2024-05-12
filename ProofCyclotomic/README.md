@@ -33,13 +33,13 @@ ending in a semicolon (to prevent PARI GP from printing this big  file to screen
 
 with 
 
-$p=$ quartic irreducible polynomial defining a totally complex number field  $k:= \text{the quotient ring } \mathbb{Q}[X]/(p)$ 
+$p=$ quartic irreducible polynomial defining a totally complex number field  $k:= \text{the quotient ring } \mathbb{Q}[X]/(p)$, 
 
-$reg=$ Regulator of $k$ to 19 decimals
+$reg=$ Regulator of $k$ to 19 decimals,
 
-$disc=$ Discriminant of $k$
+$disc=$ Discriminant of $k$,
 
-$m=$ order of torsion group of $k$. ($m=8,10,12$)
+$m=$ order of torsion group of $k$ (here $m=8,10,12$).
 
  2. The second entry $a_2$ of $D_i$ (i.e., $data[i][2]$) has the form  
 
@@ -59,21 +59,21 @@ where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the
     
 Each semi-closed cone $C_j'$ in such list has three entries: 
     
-  $$[V,H,sgn]$$
+  $$[R,H,sgn]$$
     
 where
     
- $V$ is a vector in $k$ which represents the generators of closure of cone $C_j'$,
+ $R=$ vector in $k$ which represents the generators (or Rays) of closure of the cone $C_j'$,
     
- $H$ is a vector in $k$ which give a description by (linear) inequalities of the cone $C_j'$,
+ $H=$ vector in $k$ which give a description by (linear) inequalities of the cone $C_j'$,
     
- $sgn$ is a vector of signs $1$ or $-1$ if same size of the $H$,
+ $sgn=$ vector of signs $1$ or $-1$ of same size of the $H$,
     
  such that:
     
- If $[H[i],sign[i]]=[w,1]$ (for $i=1,\ldots,\text{length}(H)$), then this corresponding to a closed half-space, that is, is the set of elements $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) \geq 0$.
+ If $[H[i],sign[i]]=[w,1]$ (for $i=1,...,\text{length}(H)$), then this corresponding to a closed half-space, that is, is the set of elements $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) \geq 0$.
     
- If $[H[i],sign[i]]=[w,-1]$ (for $i=1,\ldots,\text{length}(H)$), then this corresponding to an open half-space, that is, is the set of elements  $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) > 0$.
+ If $[H[i],sign[i]]=[w,-1]$ (for $i=1,...,\text{length}(H)$), then this corresponding to an open half-space, that is, is the set of elements  $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) > 0$.
     
  
  4. the fourth entry $a_4$ of $D_i$ (i.e., data[i][4]) has the form  
