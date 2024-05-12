@@ -71,9 +71,9 @@ where
     
  such that:
     
- If $[H[i],sign[i]]=[w,1]$ (for $i=1,\ldots,\txt{length}(H)$), then this corresponding to a closed half-space, that is, is the set of elements $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) \geq 0$.
+ If $[H[i],sign[i]]=[w,1]$ for $i=1,\ldots,\txt{length}(H)$, then this corresponding to a closed half-space, that is, is the set of elements $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) \geq 0$.
     
- If $[H[i],sign[i]]=[w,-1]$ (for $i=1,\ldots,\txt{length}(H)$), then this corresponding to an open half-space, that is, is the set of elements  $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) > 0$.
+ If $[H[i],sign[i]]=[w,-1]$ for $i=1,\ldots,\txt{length}(H)$, then this corresponding to an open half-space, that is, is the set of elements  $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) > 0$.
     
  
  4. the fourth entry $a_4$ of $D_i$ (i.e., data[i][4]) has the form  
