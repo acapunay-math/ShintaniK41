@@ -17,7 +17,7 @@ It can, of course, be read and used by other software, bearing in mind that squa
               
 This returns the same list of examples as the file PCyclotomicc.txt and has the same structure.
 
-## PCyclotomicc.txt file description:
+## Description of file PCyclotomicc.txt:
 
 The file PCyclotomicc.txt contains a data of three vectors. It consists of one long line of text of the form 
 
@@ -59,7 +59,7 @@ where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the
     
 Each semi-closed cone $C_j'$ in such list has three entries: 
     
-  $$[R,H,sgn]$$
+  $$[R,H,sgn],$$
     
 where
     
@@ -71,9 +71,9 @@ where
     
  such that:
     
- If $[H[i],sign[i]]=[w,1]$ for $i=1,\ldots,\txt{length}(H)$, then this corresponding to a closed half-space, that is, is the set of elements $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) \geq 0$.
+ If $[H[i],sign[i]]=[w,1]$ for $i=1,\ldots,\text{length}(H)$, then this corresponding to a closed half-space, that is, is the set of elements $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) \geq 0$.
     
- If $[H[i],sign[i]]=[w,-1]$ for $i=1,\ldots,\txt{length}(H)$, then this corresponding to an open half-space, that is, is the set of elements  $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) > 0$.
+ If $[H[i],sign[i]]=[w,-1]$ for $i=1,\ldots,\text{length}(H)$, then this corresponding to an open half-space, that is, is the set of elements  $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) > 0$.
     
  
  4. the fourth entry $a_4$ of $D_i$ (i.e., data[i][4]) has the form  
