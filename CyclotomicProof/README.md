@@ -103,4 +103,3 @@ Each cone $Q_i$ ($1\leq i\leq 3$) is given in the same form $[R,H,sgn]$ describe
 If $S-Q=[]$, then $Q\subset S$. Otherwise, $S-Q$ is union of $k$-rational semi-closed polyhedral cones. 
 
 
-
