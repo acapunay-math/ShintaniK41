@@ -90,10 +90,17 @@ where $P^{\Delta,\Gamma}(c')$ is the polyhedral complex described in the Lemma 1
 
 [ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR TOTALLY COMPLEX QUARTIC FIELDS](https://www.sciencedirect.com/science/article/pii/S0022314X23002299)
 
-the map $f$ is a $\varepsilon$-perturbation of identity described in Section 4.4 of article, and we taking $c'=1/10$. 
+and the map $f$ is an $\varepsilon$-perturbation of identity described in Section 4.4 of this article. Moreover we take $c'=1/10$ (instead of $c'=1$) and 
+$$\Delta=\Gamma=[1,\zeta_3,\zeta_3^2]$$ 
+represents triangles in $\C$ whose vertices are the unit cubic roots. 
 
+Each cone $Q_i$ ($1\leq i\leq 3$) is given in the same form $[R,H,sgn]$ described in the previous item. 
 
+5. The fifth entry $a_5$ of $D_i$ (i.e., $data[i][5]$) represents the difference set:
 
+   $$S-Q$$
+
+If $S-Q=[]$, then $Q\subset S$. Otherwise, $S-Q$ is union of $k$-rational semi-closed polyhedral cones. 
 
 
 
