@@ -92,7 +92,7 @@ where $P^{\Delta,\Gamma}(c')$ is the polyhedral complex described in the Lemma 1
 
 and the map $f$ is an $\varepsilon$-perturbation of identity described in Section 4.4 of this article. Moreover we take $c'=1/10$ (instead of $c'=1$) and 
 $$\Delta=\Gamma=[1,\zeta_3,\zeta_3^2]$$ 
-represents triangles in $\C$ whose vertices are the unit cubic roots. 
+represents triangles in the complex plane $\mathbb{C}$ whose vertices are the unit cubic roots. 
 
 Each cone $Q_i$ ($1\leq i\leq 3$) is given in the same form $[R,H,sgn]$ described in the previous item. 
 
@@ -100,6 +100,6 @@ Each cone $Q_i$ ($1\leq i\leq 3$) is given in the same form $[R,H,sgn]$ describe
 
    $$S-Q$$
 
-If $S-Q=[]$, then $Q\subset S$. Otherwise, $S-Q$ is union of $k$-rational semi-closed polyhedral cones. 
+If $S-Q=[\quad]$, then $Q\subset S$. Otherwise, $S-Q$ is union of $k$-rational semi-closed polyhedral cones. 
 
 
