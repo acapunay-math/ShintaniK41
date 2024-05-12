@@ -98,8 +98,8 @@ Each cone $Q_i$ ($1\leq i\leq 3$) is given in the same form $[R,H,sgn]$ describe
 
 5. The fifth entry $a_5$ of $D_i$ (i.e., $data[i][5]$) represents the difference set:
 
-   $$S-Q$$
+   $$Q-S$$
 
-If $S-Q=[\quad]$, then $Q\subset S$. Otherwise, $S-Q$ is union of $k$-rational semi-closed polyhedral cones. 
+If $Q-S=[\quad]$, then $Q\subset S$. Otherwise, $Q-S$ is union of $k$-rational semi-closed polyhedral cones. 
 
 
