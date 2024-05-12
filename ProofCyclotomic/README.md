@@ -51,28 +51,29 @@ where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the
  
    $$[C'_1,C'_2,...,C'_m]$$
  
-    which represents the polyhedral complex of $m$ four-dimensional $k$-rational (semi-closed) cones:
+ which represents the polyhedral complex of $m$ four-dimensional $k$-rational (semi-closed) cones:
+ 
     $$S:=\bigcup_{j=0}^{m-1}C_j',\quad C_j':=C_j-C_{j+1} \quad (\text{ taking } j \text{ modulo } m=8,10,12)$$
+ 
     $$\text{and } \quad C_j:=x^j\cdot\text{Cone}[1,x,x^2,x^3].$$
     
-    Each semi-closed cone $C_j'$ in such list has three entries: 
+ Each semi-closed cone $C_j'$ in such list has three entries: 
     
   $$[V,H,sgn]$$
     
     where
-    $V$ is a vector in $k$ which represents the generators of closure of cone $C_j'$,
     
-    $H$ is a vector in $k$ which give a description by (linear) inequalities of the cone $C_j'$,
+ $V$ is a vector in $k$ which represents the generators of closure of cone $C_j'$,
     
-    $sgn$ is a vector of signs $1$ or $-1$ if same size of the $H$,
+ $H$ is a vector in $k$ which give a description by (linear) inequalities of the cone $C_j'$,
     
-    such that:
+ $sgn$ is a vector of signs $1$ or $-1$ if same size of the $H$,
     
-    If $[H[i],sign[i]]=[w,1]$ (for $i=1,\ldots,\text{length}(H)$), then this corresponding to a closed half-space, that is, 
-    is the set of elements $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) \geq 0$.
+ such that:
     
-    If $[H[i],sign[i]]=[w,-1]$ (for $i=1,\ldots,\text{length}(H)$), then this corresponding to an open half-space, that is, 
-    is the set of elements  $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) > 0$.
+ If $[H[i],sign[i]]=[w,1]$ (for $i=1,\ldots,\text{length}(H)$), then this corresponding to a closed half-space, that is, is the set of elements $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) \geq 0$.
+    
+ If $[H[i],sign[i]]=[w,-1]$ (for $i=1,\ldots,\text{length}(H)$), then this corresponding to an open half-space, that is, is the set of elements  $x$ of $\mathbb{R}^4$ with $\text{Trace}(xw) > 0$.
     
  
  4. the fourth entry $a_4$ of $D_i$ (i.e., data[i][4]) has the form  
