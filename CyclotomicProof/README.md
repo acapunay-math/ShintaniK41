@@ -47,7 +47,7 @@ $m=$ order of torsion group of $k$ (here $m=8, 10, 12$).
 
    $$[\tilde{e}_1,\tilde{e}_2,\tilde{e}_3,\tilde{e}_4]$$
 
-where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the $j$-th element of the standard basis of $\mathbb{R}^4 = \mathbb{C}^2$, wherein $k$ is embedded. The error bound used in this approximation was $1/150$. 
+where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the $j$-th element of the standard basis of $\mathbb{R}^4 = \mathbb{C}^2$, wherein $k$ is embedded. The error bound $\varepsilon$ used in this approximation was $1/150$. 
 
 3. The third entry $a_3$ of $D_i$ (i.e., $data[i][3]$) has the form 
  
@@ -55,7 +55,7 @@ where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the
  
 which represents the polyhedral complex of $m$ four-dimensional $k$-rational (semi-closed) cones:
  
- $$S:=\bigcup_{j=0}^{m-1}C_j',\quad C_j':=C_j-C_{j+1} \quad (\text{ taking } j \text{ modulo } m=8,10,12)$$
+ $$S:=\left(\bigcup_{j=0}^{m-1}C_j'\right)\cup\{0\},\quad C_j':=C_j-C_{j+1} \quad (\text{ taking } j \text{ modulo } m=8,10,12)$$
  
  $$\text{and } \quad C_j:=x^j\cdot\text{Cone}[1,x,x^2,x^3].$$
     
@@ -90,7 +90,7 @@ where $P^{\Delta,\Gamma}(c')$ is the polyhedral complex described in the Lemma 1
 
 [ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR TOTALLY COMPLEX QUARTIC FIELDS](https://www.sciencedirect.com/science/article/pii/S0022314X23002299)
 
-and the map $f$ is an $\varepsilon$-perturbation of identity described in Section 4.4 of this article. Moreover we take $c'=1/10$ (instead of $c'=1$) and 
+and the map $f$ is an $\varepsilon$-perturbation of identity described in Section 4.4 of this article (with $\varepsilon\leq 1/150$). Moreover we take $c'=1/10$ (instead of $c'=1$) and 
 $$\Delta=\Gamma=[1,\zeta_3,\zeta_3^2]$$ 
 represents triangles in the complex plane $\mathbb{C}$ whose vertices are the unit cubic roots. 
 
@@ -100,6 +100,6 @@ Each cone $Q_i$ ($1\leq i\leq 3$) is given in the same form $[R,H,sgn]$ describe
 
    $$Q-S$$
 
-If $Q-S=[\quad]$, then $Q\subset S$. Otherwise, $Q-S$ is union of $k$-rational semi-closed polyhedral cones. 
+If $Q-S=[\quad]$, then $Q\subset S$. Otherwise, $Q-S$ is finite union of other $k$-rational semi-closed polyhedral cones. 
 
 
