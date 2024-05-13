@@ -51,7 +51,7 @@ where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the
 
 3. The third entry $a_3$ of $D_i$ (i.e., $data[i][3]$) has the form 
  
-   $$[C'_1,C'_2,...,C'_m]$$
+   $$[C'_1,C'_2,...,C'_m],$$
  
 which represents the polyhedral complex of $m$ four-dimensional $k$-rational (semi-closed) cones:
  
@@ -84,7 +84,7 @@ where
       
 which represents a polyhedral complex of three 4-dimensional $k$-rational (semi-closed) cones:
 
-  $$Q=f(P^{\Delta,\Gamma}(c'))$$
+  $$Q=f(P^{\Delta,\Gamma}(c'))=\bigcup_{i=1}^3Q_i,$$
 
 where $P^{\Delta,\Gamma}(c')$ is the polyhedral complex described in the Lemma 10 (page 158) of the article: 
 
