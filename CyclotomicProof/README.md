@@ -55,7 +55,7 @@ where $\tilde{e}_j$ (for $1\leq j\leq 4$) is an element of $k$ approximating the
  
 which represents the polyhedral complex of $m$ four-dimensional $k$-rational (semi-closed) cones:
  
- $$S:=\left(\bigcup_{j=0}^{m-1}C_j'\right)\cup {0},\quad C_j':=C_j-C_{j+1} \quad (\text{ taking } j \text{ modulo } m=8,10,12)$$
+ $$S:=\left(\bigcup_{j=0}^{m-1}C_j'\right)\cup \text{{0}},\quad C_j':=C_j-C_{j+1} \quad (\text{ taking } j \text{ modulo } m=8,10,12)$$
  
  $$\text{and } \quad C_j:=x^j\cdot\text{Cone}[1,x,x^2,x^3].$$
     
