@@ -35,7 +35,7 @@ ending in a semicolon (to prevent PARI GP from printing this big  file to screen
 
 with 
 
-$p=$ quartic irreducible polynomial defining a totally complex number field  $k:= \text{the quotient ring } \mathbb{Q}[X]/(p)$, 
+$p=$ quartic irreducible polynomial defining a totally complex number field  $k:= \text{the quotient ring } \mathbb{Q}[X]/(p)$, in our case $p$ is equal to $x^4+1$, $x^4-x^3+x^2-x+1$ or $x^4-x^2+1$.
 
 $reg=$ Regulator of $k$ to 19 decimals,
 
