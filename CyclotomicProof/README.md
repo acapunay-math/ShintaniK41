@@ -27,7 +27,7 @@ The file PCyclotomicc.txt contains a data of three vectors. It consists of one l
 
 ending in a semicolon (to prevent PARI GP from printing this big  file to screen). Each $D_i$ (i.e., $data[i]$ for $1\leq i\leq 3$) has the form  
 
-  $$[a_1,a_2,a_3,a_4,a_5]$$
+  $$[a_1,a_2,a_3,a_4,a_5,a_6]$$
 
 1. The first entry $a_1$ (i.e., $data[1][1]$) has the form 
 
@@ -90,9 +90,9 @@ where $P^{\Delta,\Gamma}(c)$ is the polyhedral complex described in the Lemma 10
 
 [ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR TOTALLY COMPLEX QUARTIC FIELDS](https://www.sciencedirect.com/science/article/pii/S0022314X23002299)
 
-and the map $f$ is an $\varepsilon$-perturbation linear of identity described in Section 4.4 of this article (with $\varepsilon\leq 1/150$). Moreover to build such $R_f$ we consider the values: $(c,m)=(1/5,8),\,(1/6,10),\,(1/8,10)$ and we take
-$$\Delta=\Gamma \left[(1,0),\, (-1/2,\alpha),\,(-1/2,-\alpha)\right] \approx [1,\zeta_3,\zeta_3^2],\qquad \alpha:=\dfrac{2521}{2911}$$ 
-represent a triangle with vertices in $\mathbb{Q}^2$ in the complex plane $\mathbb{C}$ such that their vertices are an approximation of the unit cubic roots, $\zeta_3=\text{exp}(2\pi i/3)$. 
+and the map $f$ is an $\varepsilon$-perturbation linear of identity described in Section 4.4 of this article (with $\varepsilon\leq 1/150$). Moreover to build such $R_f$ we consider the values: $(c,m)=(1/5,8), (1/6,10), (1/8,10)$ and we take
+$$\Delta = \Gamma = \left[(1,0), (-1/2,\alpha), (-1/2,-\alpha)\right] \approx [1,\zeta_3,\zeta_3^2],\qquad \alpha:=\dfrac{2521}{2911}$$ 
+which represent a triangle with vertices in $\mathbb{Q}^2$ in the complex plane $\mathbb{C}$ such that their vertices are an approximation of the unit cubic roots, $\zeta_3=\text{exp}(2\pi i/3)$. 
 
 Each semi-closed cone $Q_i$ ($1\leq i\leq 3$) is given in the same form $[R,H,sgn]$ described in the previous item. 
 
@@ -102,4 +102,9 @@ Each semi-closed cone $Q_i$ ($1\leq i\leq 3$) is given in the same form $[R,H,sg
 
 If $R_{f}-S=[\quad]$, then $R_{f}\subset S$. Otherwise, $R_{f}-S$ is finite union of other $k$-rational semi-closed polyhedral cones. 
 
+6. Finally, the sixth entry $a_6$ of $D_i$ (i.e., $data[i][6]$) is a positive constant $c'$ such that satisfies 
+
+   $$P^{\Delta,\Gamma}(c')\subset R_{f}=f(P^{\Delta,\Gamma}(c)),$$
+which  it is proved in Lemma 15 of our paper JNT-2024.   
+   
 
