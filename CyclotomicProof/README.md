@@ -84,15 +84,15 @@ where
       
 which represents a polyhedral complex of three 4-dimensional $k$-rational (semi-closed) cones:
 
-  $$R_{f}=f(P^{\Delta,\Gamma}(c'))=\bigcup_{i=1}^3Q_i,$$
+  $$R_{f}=f(P^{\Delta,\Gamma}(c))=\bigcup_{i=1}^3Q_i,$$
 
-where $P^{\Delta,\Gamma}(c')$ is the polyhedral complex described in the Lemma 10 (page 158) of the article: 
+where $P^{\Delta,\Gamma}(c)$ is the polyhedral complex described in the Lemma 10 (page 158) of the article: 
 
 [ATTRACTOR-REPELLER CONSTRUCTION OF SHINTANI DOMAINS FOR TOTALLY COMPLEX QUARTIC FIELDS](https://www.sciencedirect.com/science/article/pii/S0022314X23002299)
 
-and the map $f$ is an $\varepsilon$-perturbation of identity described in Section 4.4 of this article (with $\varepsilon\leq 1/150$). Moreover we take $c'=1/10$ (instead of $c'=1$) and 
-$$\Delta=\Gamma=[1,\zeta_3,\zeta_3^2]$$ 
-represents triangles in the complex plane $\mathbb{C}$ whose vertices are the unit cubic roots, $\zeta_3=\text{exp}(2\pi i/3)$. 
+and the map $f$ is an $\varepsilon$-perturbation linear of identity described in Section 4.4 of this article (with $\varepsilon\leq 1/150$). Moreover we take $c=1/10$ (instead of $c=1$) and 
+$$\Delta=\Gamma \left[(1,0),\;(-1/2,\alpha),\;(-1/2,-\alpha)\right] \approx [1,\zeta_3,\zeta_3^2],\qquad \alpha:=\dfrac{2521}{2911}$$ 
+represent a triangle with vertices in $\mathbb{Q}^2$ in the complex plane $\mathbb{C}$ such that their vertices are an approximation of the unit cubic roots, $\zeta_3=\text{exp}(2\pi i/3)$. 
 
 Each semi-closed cone $Q_i$ ($1\leq i\leq 3$) is given in the same form $[R,H,sgn]$ described in the previous item. 
 
