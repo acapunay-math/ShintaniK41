@@ -1,6 +1,6 @@
 ## Shintani domains for totally complex quartic number fields 
 
-Here we give an algorithm (in PARI GP) to obtain a fundamental domain for totally complex quartic number fields $k$. By [Shintani's unit theorem](https://en.wikipedia.org/wiki/Shintani%27s_unit_theorem) such domain is a finite union of polyhedral cones with generators in $k$. 
+Here we give an algorithm (in PARI GP) to obtain a fundamental domain for totally complex quartic number fields $k$ hosted in the file [ShintaniDomainK41.gp](https://github.com/acapunay-math/ShintaniK41/blob/main/Algorithm/ShintaniDomainK41.gp). By [Shintani's unit theorem](https://en.wikipedia.org/wiki/Shintani%27s_unit_theorem) such domain is a finite union of polyhedral cones with generators in $k$. 
 
 This implementation is based on the manuscript (abbreviated MS)
 
@@ -8,7 +8,7 @@ This implementation is based on the manuscript (abbreviated MS)
 
 by A. CAPUÑAY, M. ESPINOZA AND E. FRIEDMAN, Journal of Number Theory, Volume 258, May 2024, Pages 146-172.
 
-## File description
+## Execution
 
 $(I).$ After uploading the file `ShintaniDomainK41.gp` in Pari GP, using an irreducible polynomial $p$ (which defines a complex quartic number field), then you can use the command
 
